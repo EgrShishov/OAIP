@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>853</width>
+    <height>419</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>40</y>
+      <width>301</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Книги по автору</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Книги по названию</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Читателя по фамилии</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>10</y>
+      <width>131</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Поиск </string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>90</y>
+      <width>301</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>140</y>
+      <width>301</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Найти</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>481</width>
+      <height>271</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>300</y>
+      <width>301</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string>лишняя кнопка</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>350</y>
+      <width>151</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Удалить </string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>1020</x>
+      <y>350</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Книгу</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Читателя</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>290</y>
+      <width>329</width>
+      <height>67</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0" colspan="2">
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="text">
+        <string>Просмотр содержимого файла </string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QComboBox" name="comboBox_5">
+       <item>
+        <property name="text">
+         <string>Книги</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Читатели</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>Добавить книгу</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1" colspan="2">
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="text">
+        <string>Добавить читателя</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>290</y>
+      <width>249</width>
+      <height>67</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="text">
+        <string>Сортировать</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QComboBox" name="comboBox_4">
+       <item>
+        <property name="text">
+         <string>По автору</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>По названию</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>По году издания</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="1" column="0" colspan="2">
+      <widget class="QPushButton" name="pushButton_7">
+       <property name="text">
+        <string>Создать список книг у читателй</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>853</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Файл</string>
+    </property>
+    <addaction name="action"/>
+    <addaction name="action_3"/>
+    <addaction name="action_2"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action">
+   <property name="icon">
+    <iconset resource="resource1.qrc">
+     <normaloff>:/Img/png-transparent-folder-open-file-common-toolbar-icon.png</normaloff>:/Img/png-transparent-folder-open-file-common-toolbar-icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Открыть файл с книгами</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="icon">
+    <iconset resource="resource1.qrc">
+     <normaloff>:/Img/20-209142_small-close-button-svg-png-icon-free-download.png</normaloff>:/Img/20-209142_small-close-button-svg-png-icon-free-download.png</iconset>
+   </property>
+   <property name="text">
+    <string>Закрыть программу</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="icon">
+    <iconset resource="resource1.qrc">
+     <normaloff>:/Img/png-transparent-folder-open-file-common-toolbar-icon.png</normaloff>:/Img/png-transparent-folder-open-file-common-toolbar-icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Открыть файл с читателями</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="resource1.qrc"/>
+ </resources>
+ <connections/>
+</ui>

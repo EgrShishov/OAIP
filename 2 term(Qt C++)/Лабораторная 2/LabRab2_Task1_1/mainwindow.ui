@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>802</width>
+    <height>471</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>501</width>
+      <height>331</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>380</y>
+      <width>221</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ввести данные</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>380</y>
+      <width>221</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Вывести эл.списка</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>40</y>
+      <width>260</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Номер цеха</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Наименовании продукции</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Количество</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="search">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>80</y>
+      <width>61</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Найти!</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>80</y>
+      <width>171</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>300</y>
+      <width>260</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Сортировать по:</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>340</y>
+      <width>260</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Номеру цеха</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Наименованию продукции</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Количеству</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>140</y>
+      <width>260</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="text">
+     <string>Цех с кол-вом продукции 
+не ниже введенного</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>10</y>
+      <width>521</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Информация выводится в формате &lt;i&gt;&lt;b&gt;номер цеха,продукция,количество&lt;/i&gt;&lt;/b&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>70</y>
+      <width>260</width>
+      <height>44</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>label_2</zorder>
+   <zorder>listWidget</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>pushButton_2</zorder>
+   <zorder>comboBox</zorder>
+   <zorder>search</zorder>
+   <zorder>lineEdit</zorder>
+   <zorder>pushButton_3</zorder>
+   <zorder>comboBox_2</zorder>
+   <zorder>pushButton_4</zorder>
+   <zorder>label</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>802</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Файл</string>
+    </property>
+    <addaction name="action"/>
+    <addaction name="action_3"/>
+    <addaction name="save"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/rec/Img/png-transparent-folder-open-file-common-toolbar-icon.png</normaloff>:/rec/Img/png-transparent-folder-open-file-common-toolbar-icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Открыть файл</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="save">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/rec/Img/png-clipart-computer-icons-floppy-disk-symbol-icon-user-interface-blue-angle.png</normaloff>:/rec/Img/png-clipart-computer-icons-floppy-disk-symbol-icon-user-interface-blue-angle.png</iconset>
+   </property>
+   <property name="text">
+    <string>Сохранить как</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+S</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/rec/Img/360.png</normaloff>:/rec/Img/360.png</iconset>
+   </property>
+   <property name="text">
+    <string>Сохранить</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

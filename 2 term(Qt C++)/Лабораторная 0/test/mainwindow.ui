@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1050</width>
+    <height>681</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>751</width>
+      <height>471</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="square">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>20</y>
+      <width>121</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add rectangle</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="square_2">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>60</y>
+      <width>121</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add sqaure</string>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="doubleSpinBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>530</y>
+      <width>91</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <double>800.000000000000000</double>
+    </property>
+    <property name="value">
+     <double>38.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="doubleSpinBox_2">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>530</y>
+      <width>91</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <double>600.000000000000000</double>
+    </property>
+    <property name="value">
+     <double>40.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>510</y>
+      <width>171</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Position of mass centre</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>510</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Rotate</string>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="doubleSpinBox_3">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>530</y>
+      <width>91</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <double>0.000000000000000</double>
+    </property>
+    <property name="maximum">
+     <double>360.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="doubleSpinBox_4">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>530</y>
+      <width>91</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <double>0.100000000000000</double>
+    </property>
+    <property name="maximum">
+     <double>4.000000000000000</double>
+    </property>
+    <property name="singleStep">
+     <double>0.100000000000000</double>
+    </property>
+    <property name="value">
+     <double>1.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>510</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Scale</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>530</y>
+      <width>111</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Canve mode</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="area">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>530</y>
+      <width>113</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="perimetr">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>530</y>
+      <width>113</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>510</y>
+      <width>63</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Area</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>510</y>
+      <width>63</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Perimetr</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="triangle">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>100</y>
+      <width>121</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add triangle</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ellipse">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>140</y>
+      <width>121</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add ellipse</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>180</y>
+      <width>121</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add rhombus</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>380</y>
+      <width>121</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>rotate</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>380</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>220</y>
+      <width>121</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add hexagon</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>260</y>
+      <width>121</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add star-5</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>300</y>
+      <width>121</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add star-6</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>340</y>
+      <width>121</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add star-8</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>500</y>
+      <width>221</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>500</y>
+      <width>221</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>500</y>
+      <width>281</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>460</y>
+      <width>121</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Stop rotation</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="change">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>420</y>
+      <width>121</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Change</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>530</y>
+      <width>93</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Clear canve</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>350</y>
+      <width>111</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>rotation angle</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_9">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>580</y>
+      <width>111</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>centre of grav</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_10">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>20</y>
+      <width>121</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add arrow</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_11">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>570</y>
+      <width>93</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set color</string>
+    </property>
+   </widget>
+   <zorder>groupBox</zorder>
+   <zorder>groupBox_2</zorder>
+   <zorder>graphicsView</zorder>
+   <zorder>square</zorder>
+   <zorder>square_2</zorder>
+   <zorder>doubleSpinBox</zorder>
+   <zorder>doubleSpinBox_2</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>doubleSpinBox_3</zorder>
+   <zorder>doubleSpinBox_4</zorder>
+   <zorder>label_3</zorder>
+   <zorder>checkBox</zorder>
+   <zorder>area</zorder>
+   <zorder>perimetr</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_5</zorder>
+   <zorder>triangle</zorder>
+   <zorder>ellipse</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>pushButton_2</zorder>
+   <zorder>textEdit</zorder>
+   <zorder>pushButton_3</zorder>
+   <zorder>pushButton_4</zorder>
+   <zorder>pushButton_5</zorder>
+   <zorder>pushButton_6</zorder>
+   <zorder>groupBox_3</zorder>
+   <zorder>pushButton_7</zorder>
+   <zorder>change</zorder>
+   <zorder>pushButton_8</zorder>
+   <zorder>label_6</zorder>
+   <zorder>pushButton_9</zorder>
+   <zorder>pushButton_10</zorder>
+   <zorder>pushButton_11</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1050</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

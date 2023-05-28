@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/rec">
+        <file>Img/360.png</file>
+        <file>Img/png-transparent-computer-icons-symbol-plain-text-save-miscellaneous-blue-angle.png</file>
+        <file>Img/png-transparent-folder-open-file-common-toolbar-icon.png</file>
+        <file>Img/png-clipart-computer-icons-floppy-disk-symbol-icon-user-interface-blue-angle.png</file>
+    </qresource>
+</RCC>
