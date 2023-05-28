@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/rec">
+        <file>Img/png-transparent-folder-open-file-common-toolbar-icon.png</file>
+        <file>Img/png-clipart-computer-icons-icon-design-iconfinder-save-icon-miscellaneous-saving.png</file>
+        <file>Img/png-transparent-blue-floppy-disk-illustration-angle-area-text-brand-save-angle-text-rectangle.png</file>
+        <file>Img/23213.png</file>
+        <file>Img/png-transparent-computer-icons-symbol-plain-text-save-miscellaneous-blue-angle.png</file>
+        <file>Img/360.png</file>
+        <file>Img/png-clipart-computer-icons-floppy-disk-symbol-icon-user-interface-blue-angle.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>../../../../3.3.4.png</file>
+    </qresource>
+</RCC>
